@@ -19,24 +19,28 @@ if __name__ == "__main__":
     print("Rectangle array")
 
     rectangle_array(multi_dimensional_array)
-
-    print("")
-
-    mainDiagonal(multi_dimensional_array)
-
-    print("")
-
+    #
+    # print("")
+    #
+    # mainDiagonal(multi_dimensional_array)
+    #
+    # print("")
+    #
     # incidentalDiagonal(multi_dimensional_array)
-
-    print("")
-
+    #
+    # print("")
+    #
     # snake_array(multi_dimensional_array)
-
-    print("")
-
+    #
+    # print("")
+    #
     # main_transposition(multi_dimensional_array)
+    #
+    # print("")
+    #
+    # incidental_transposition(multi_dimensional_array)
 
     print("")
 
-    # incidental_transposition(multi_dimensional_array)
+    snake_array_vertical(multi_dimensional_array)
 
