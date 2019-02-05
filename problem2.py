@@ -1,20 +1,33 @@
 #!/usr/bin/env python3
 #coding=utf-8
 
-# print array like snake from [][]
+# print array like snake from [3][0]
 
-def snake_array(inputArray):
-    print("Problem 2")
 
-    line = 3
-    for i in range(len(inputArray)):
-        if i / 2:
-            for a in range(len(inputArray[line])):
-                print(inputArray[line][a])
+def snake_array(array):
+    print("Snake array")
+
+    result = ""
+    x = 0
+    y = 0
+
+    for i in range(len(array)):
+        if i % 2 == 0:
+            for a in range(len(array)):
+                x = len(array) - 1 - i
+                y = a
+
+                result += str(array[x][y]) + " "
+
         else:
-            for b in range(len(inputArray[line])):
-                print(inputArray[line][len(inputArray) - 1 - b])
+            for b in range(len(array)):
+                x = len(array) - 1 - i
+                y = len(array) - 1 - b
 
-        line -= 1
+                result += str(array[x][y]) + " "
+
+        result = result[:-1]
+        result += "\n"
+    print(result)
 
 

@@ -3,9 +3,11 @@
 
 # printing array like rectangle
 
+
 def rectangle_array(array):
     for i in range(0, len(array)):
         print(array[i])
+
 
 def printString():
     a = 0

@@ -5,6 +5,7 @@
 from problem1 import *
 from problem2 import *
 from utilites import *
+from problem3 import *
 
 
 if __name__ == "__main__":
@@ -19,19 +20,23 @@ if __name__ == "__main__":
 
     rectangle_array(multi_dimensional_array)
 
-    print()
+    print("")
 
-    incidentalDiagonal(multi_dimensional_array)
+    mainDiagonal(multi_dimensional_array)
 
-    print()
+    print("")
 
-    # mainDiagonal(multi_dimensional_array)
+    # incidentalDiagonal(multi_dimensional_array)
 
-    print()
+    print("")
 
     # snake_array(multi_dimensional_array)
 
-    print()
+    print("")
 
-    printString()
+    # main_transposition(multi_dimensional_array)
+
+    print("")
+
+    # incidental_transposition(multi_dimensional_array)
 
